@@ -1,8 +1,8 @@
 from random import randint
 
 seu_nome = input('olá! Qual o seu nome? ')
-print(f'Okay!) {seu_nome}, eu estou escolhendo um número de 1 até 10. Você consegue adivinhar qual?
-       ')
+print(f'Okay!) {seu_nome}, eu estou escolhendo um número de 1 até 10. Você consegue adivinhar qual?'
+       )
 numero_adivinhado = randint(1, 10)
 numero_tentativas = 3
 
